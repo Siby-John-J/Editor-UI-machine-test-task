@@ -1,8 +1,42 @@
-# React + Vite
+# Tasks-UI
+A Web-UI for Dynamic Elements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# How to install
 
-Currently, two official plugins are available:
+1. Clone the Repository
+```bash
+  git clone https://github.com/Siby-John-J/Editor-UI-machine-test-task.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Navigate into the project directory
+```bash
+  cd Editor-UI-machine-test-task
+```
+
+3. Install the dependencies
+```bash
+  npm install
+```
+
+# Usage
+To start the development server, run the following command
+```bash
+  npm run dev
+```
+This will run the app in development mode, and you can view it in the browser at http://localhost:5173
+
+# Folder Structure
+```bash
+  Tasks-UI-machine-test-task/
+├── public/                  # Public assets (e.g., index.html, images)
+│   └── index.html
+├── src/                     # Source code
+│   ├── components/          # React components
+│   ├── context              # Context Api State Management
+│   ├── assets/              # Images, icons, styles, etc.
+│   ├── App.jsx              # Main app component
+│   ├── main.jsx            # Main entry point
+├── package.json             # Project dependencies and scripts
+├── .gitignore               # Files to ignore in Git
+├── README.md                # This file
+```
